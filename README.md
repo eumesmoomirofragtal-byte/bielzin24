@@ -9,13 +9,13 @@ local isTeleporting = false
 local moveSpeed = 300
 
 local ScreenGui = Instance.new("ScreenGui")
-ScreenGui.Name = "bielExerc hub"
+ScreenGui.Name = "bielhub"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.Parent = PlayerGui
 
 local MainFrame = Instance.new("Frame")
-MainFrame.Name = "MainFrame"
+MainFrame.Name = "bielhub"
 MainFrame.Size = UDim2.new(0, 300, 0, 220)
 MainFrame.Position = UDim2.new(0.5, -150, 0.5, -110)
 MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
